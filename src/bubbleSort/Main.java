@@ -16,8 +16,8 @@ public class Main {
         String a[];
         Scanner in = new Scanner(System.in);
         System.out.print("input long array: ");
-        int pjg = in.nextInt();
-        a = new String [pjg];
+        int longIndex = in.nextInt();
+        a = new String[longIndex];
         for (int i = 0; i < a.length; i++) {
             System.out.print("input string: ");
             a[i] = in.next();
